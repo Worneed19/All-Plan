@@ -1,0 +1,52 @@
+div.buttons {
+    display: flex;
+    min-height: 150px;
+    align-items: center;
+    background-color: #6F7481;
+}
+td.home {
+    padding-right: 20px;
+}
+td.calendar {
+    padding-right: 20px;
+}
+td.about {
+    padding-right: 1150px;
+}
+body {
+    background-color: #EEECE3;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+footer.footer {
+    background-color: #E48821;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    width: 100vw;
+    text-align: center;
+}
+article.developers{
+    text-align: center;
+    margin-top: -40px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+div.about-us {
+    padding-top: 25px;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Calendar </title>
+        <link rel="icon" type="image/x-icon" href="resources/favicon (3).ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel = "stylesheet" href = "calendar.css">
+        <script src="All Plan.js" defer></script>
+    </head>
+    <body id = "body">
+        <div class="buttons">
+            <ul>
+                <table class="buttons table">
+                    <td class="calendar"><a href="index.html"><img src = "resources/logo.png" height = "115px"></a></td>
+                    <td class="about"><a href="aboutus.html" ><img src = "resources/About.png" height = "115px"></a></td>
+
+                    
+                </table>
+            </ul>
+        </div>
+        <h1 class = "greetings">Welcome to the All Plan!</h1>
+        <div class = "c-main-contents">
+            <h3>
+                <div class = "timer">
+                     <h3 class = "t-timer">00:00:00 </h3>
+                </div>
+            </h3>
+            <div class = "calendar">
+                <table class = "table-calendar">
+                    <tr>
+                        <th id = "days">Monday</th>
+                        <th id = "days">Tuesday</th>
+                        <th id = "days">Wednesday</th>
+                        <th id = "days">Thursday</th>
+                        <th id = "days">Friday</th>
+                        <th id = "days">Saturday</th>
+                        <th id = "days">Sunday</th>
+                    </tr>
+                    <tr input type="text" class = "row1">
+                       
+
+                        <th id = "act1,1">
+                                
+                            <p id="output">  <span class="output"> </span>
+
+                            <form action = "" method = "GET">
+
+                                
+                                <input type = "text" id="act" placeholder="Type in your Activity"/>
+                                <select id="select1" aria-placeholder="1">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select2">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select3">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn" value = "Enter">
+                                <button onclick = "remove()">Remove</button> 
+                                
+                            </form>
+                        
+                        </th>
+                            
+                        <th id="act1,2">
+                           
+                            <form action = "" method = "GET">
+                                <p>  <span class="output1"> </span>
+                                
+                                <input type = "text" id="act1" placeholder="Type in your Activity"/>
+                                <select id="select4">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select5">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select6">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn1" value = "Enter">
+                                <button onclick = "remove1()">Remove</button>
+                            </form>
+                          
+                        </th>
+                        <th id ="act1,3">
+
+                            <p>  <span class="output2"> </span>
+
+                            <form action = "" method = "GET">
+                                
+                                <input type = "text" id="act2" placeholder="Type in your Activity"/>
+                                <select id="select7">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select8">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select9">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn2" value = "Enter">
+                                <button onclick = "remove2()">Remove</button>
+                            </form>
+                        </th>
+                        <th id ="act1,4">
+
+                            <p>  <span class="output3"> </span>
+
+                            <form action = "" method = "GET">
+                                
+                                <input type = "text" id="act3" placeholder="Type in your Activity"/>
+                                <select id="select10">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select11">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select12">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn3" value = "Enter">
+                                <button onclick = "remove3()">Remove</button>
+                            </form>
+                        </th>
+                        <th id="act1,5">
+
+                            <p>  <span class="output4"> </span>
+
+                            <form action = "" method = "GET">
+                                
+                                <input type = "text" id="act4" placeholder="Type in your Activity"/>
+                                <select id="select13">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select14">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select15">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn4" value = "Enter">
+                                <button onclick = "remove4()">Remove</button>
+                            </form>
+                        </th>
+                        <th id="act1,6">
+
+                            <p>  <span class="output5"> </span>
+
+                            <form action = "" method = "GET">
+                                
+                                <input type = "text" id="act5" placeholder="Type in your Activity"/>
+                                <select id="select16">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select17">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select18">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn5" value = "Enter">
+                                <button onclick = "remove5()">Remove</button>
+                            </form>
+                        </th>
+                        <th id="act1,7">
+
+                            <p>  <span class="output6"> </span>
+
+                            <form action = "" method = "GET">
+                                
+                                <input type = "text" id="act6" placeholder="Type in your Activity"/>
+                                <select id="select19">
+                                    <p>Hours</p>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="select20">
+                                    <p>Minutes</p>
+                                    <option value="05">05</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="25">25</option>
+                                    <option value="30">30</option>
+                                    <option value="35">35</option>
+                                    <option value="40">40</option>
+                                    <option value="45">45</option>
+                                    <option value="50">50</option>
+                                    <option value="55">55</option>                                   
+                                </select>
+                                <select name="" id="select21">
+                                    <option value="am">am</option>
+                                    <option value="pm">pm</option>
+                                </select>
+                                
+
+
+                                <input type = "button" id = "btn6" value = "Enter">
+                                <button onclick = "remove6()">Remove</button>
+                            </form>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+    </body>
+    <footer id = "footer">
+
+        <div class = "modes">
+            <button id = "dark-mode" onclick = "dark()">Dark Mode</button>
+        </div>
+    </footer>
+</html>
